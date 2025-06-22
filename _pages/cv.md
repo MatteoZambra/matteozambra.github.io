@@ -34,6 +34,12 @@ author_profile: true
 
 <span style="font-size:16px;">*Pdf file available [on request](mailto:matteo.zambra1@gmail.com)*</span>
 
+## Overview
+An interactive map with the relevant steps of my career. 
+
+<iframe src="/assets/images/map.html" width="100%" height="600px" style="border:none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"></iframe>
+
+
 ## Work Experience
 
 ### Industrial Data Analysis Systems Development
