@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Skill Development (Highcharts)</title>
+    <!-- Import the Highcharts library -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <!-- Optional: Import module for better accessibility -->
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #skillChartContainer {
+            width: 95vw;
+            max-width: 1400px;
+            height: 85vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- This div is the container where the Highcharts chart will be rendered -->
+    <div id="skillChartContainer"></div>
+
+    <script>
+        // --- Step 1: Define the Data ---
+        const careerAggregated = {
+            "BSc in Environmental Engineering": {
+                "Fluid Dynamics": 5.5,
+                Meteorology: 4.5,
+                Hydrology: 4.0,
+                "Scientific Computing": 2.5,
+            },
+            "MSc In Mathematical Engineering": {
+                "Fluid Dynamics": 6.0,
+                "Applied Mathematics": 5.5,
+                "Dynamical Systems": 5.0,
+                "Scientific Computing": 6.5,
+                Python: 3.0,
+                "Deep Learning": 1.0,
+            },
+            "Research Fellowship in Deep Learning": {
+                Python: 6.5,
+                "Deep Learning": 5.5,
+                Research: 5.0,
+                "Dissemination and Valorization": 7.0,
+            },
+            "PhD in AI for Ocean Data": {
+                Python: 8,
+                "Deep Learning": 7.5,
+                "Physics-Informed Deep Learning": 5.5,
+                Research: 7.5,
+                "Dissemination and Valorization": 8.0,
+            },
+            "Data Science for Industrial Manufacturing": {
+                Python: 8.5,
+                "Deep Learning": 8.0,
+                "Software Engineering": 3.0,
+                "REST API": 2.5,
+                SQL: 1.5,
+                "Dissemination and Valorization": 8.0,
+            },
+            };
+
+            // --- Step 2: Process the Data for Highcharts ---
+            // Get unique lists of all skills (for xAxis categories) and stages (for series)
+            const stages = Object.keys(careerAggregated);
+            const skills = [
+            ...new Set(stages.flatMap((stage) => Object.keys(careerAggregated[stage]))),
+            ];
+
+            // Create a data structure to hold scores and calculate sums for normalization
+            const dataMatrix = {};
+            const skillSums = {};
+            skills.forEach((skill) => {
+            skillSums[skill] = 0;
+            dataMatrix[skill] = {};
+            stages.forEach((stage) => {
+                const score = careerAggregated[stage][skill] || 0;
+                dataMatrix[skill][stage] = score;
+                skillSums[skill] += score;
+            });
+            });
+
+            // Find the maximum sum, which will be our normalization factor
+            const maxSum = Math.max(...Object.values(skillSums));
+
+            // --- Step 3: Format Data into Highcharts Series ---
+            // Highcharts expects a 'series' array, where each item is an object representing a data series.
+            const seriesData = stages.map((stage) => {
+            return {
+                name: stage,
+                // The data for this series, ordered by the 'skills' array
+                data: skills.map((skill) => {
+                const originalScore = dataMatrix[skill][stage] || 0;
+                // Return an object for each point to store extra data for the tooltip
+                return {
+                    y: originalScore / maxSum,
+                    originalScore: originalScore,
+                };
+                }),
+            };
+            });
+
+            // --- Step 4: Create the Highcharts Chart ---
+            Highcharts.chart("skillChartContainer", {
+            chart: {
+                type: "bar", // CORRECTED: Use 'column' for vertical bars
+                animation: {
+                duration: 1000, // Fade-in animation on load
+                },
+            },
+            title: {
+                text: "Skills Set",
+            },
+            xAxis: {
+                categories: skills, // Skills are the categories on the x-axis
+                title: {
+                text: "",
+                },
+                labels: {
+                rotation: 0, // ADDED: Rotate labels to prevent overlap
+                style: {
+                    fontSize: "11px",
+                },
+                },
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                text: "",
+                },
+                labels: {
+                    enabled: false,
+                //   format: "", // Format y-axis labels to 2 decimal places
+                },
+            },
+            legend: {
+                reversed: true, // Often looks better in stacked charts
+                title: {
+                text: "Career Stage",
+                },
+            },
+            plotOptions: {
+                series: {
+                stacking: "normal", // This is what creates the stacked effect
+                },
+            },
+            tooltip: {
+                // The formatter function gives us full control over the tooltip content
+                formatter: function () {
+                return (
+                    `<b>${this.key}</b><br/>` +
+                    `<span style="color:${this.series.color}">●</span> ${this.series.name}:<br/>` +
+                    `Original Score: <b>${this.point.originalScore.toFixed(1)}</b><br/>` +
+                    `Normalized: <b>${this.y.toFixed(2)}</b>`
+                );
+                },
+            },
+            series: seriesData,
+            });
+
+    </script>
+</body>
+</html>
