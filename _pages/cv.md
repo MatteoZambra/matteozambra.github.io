@@ -44,7 +44,7 @@ An interactive map with the relevant steps of my career. Below, the detailed des
 
 ### Synopsis of My Skills Set
 
-<iframe src="/assets/images/skills-chart.html" width="100%" height="600px" style="border:none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"></iframe>
+<iframe src="/assets/images/skills-chart_v2.html" width="100%" height="600px" style="border:none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"></iframe>
 
 ## Work Experience
 
