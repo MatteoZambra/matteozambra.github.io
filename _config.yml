@@ -17,14 +17,14 @@ title: Matteo Zambra
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   CV website. For completeness
-# twitter_username: username
 github_username: MatteoZambra
 minimal_mistakes_skin: default
 # search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+# remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 # Outputting
 # permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
@@ -53,19 +53,18 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
-  name   : "Matteo Zambra"
-  avatar : "/assets/images/photo_2.jpg"
+  # name   : "Matteo Zambra"
+  # avatar : "/assets/images/photo_2.jpg"
   bio    : "Data *and* Science"
   links:
     - label: "LinkedIn"
       icon: "fa-solid fa-angles-right"
       url: "https://www.linkedin.com/in/matteozambra/"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fa-solid fa-angles-right"
       url: "https://github.com/MatteoZambra"
@@ -115,3 +114,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+header:
+  nav: main

@@ -1,11 +1,14 @@
 main:
   - title: "My CV"
     url: /cv/
-  # - title: "Skills Set"
-  #   url: /toolbox/
   - title: "Ongoing Activity"
     url: /ongoing/
   - title: "Previous Efforts"
     url: /previous/
+  - title: "Side Projects"
+    url: /side-projects/
+    children:
+      - title: "MicroEconoPycs"
+        url: "/side-projects/mga/"
   - title: "Beyond Science"
     url: /beyond/

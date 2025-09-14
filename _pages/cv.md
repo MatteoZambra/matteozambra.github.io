@@ -3,7 +3,7 @@ title: "My complete Curriculum Vitae"
 classes: wide
 layout: single
 permalink: /cv/
-author_profile: false
+author_profile: true
 ---
 
 <style>
