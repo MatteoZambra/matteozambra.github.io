@@ -1,0 +1,4 @@
+chmod +x setup_jekyll_env.sh
+./setup_jekyll_env.sh --fixed   # reproducible setup
+./setup_jekyll_env.sh --latest  # bleeding-edge setup
+

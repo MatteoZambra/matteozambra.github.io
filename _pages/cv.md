@@ -6,31 +6,6 @@ permalink: /cv/
 author_profile: true
 ---
 
-<style>
-    h2 {
-        font-family: "Garamond", serif;
-        font-style: normal;
-        font-size: 38px;
-        font-weight: bold;
-        color:rgb(102, 113, 126);
-    }
-    h3 {
-        font-size: 30px;
-        color: #494e63;
-    }
-    h5 {
-        color: #494e63;
-    }
-    body {
-        font-size: 18px;
-    }
-    p:has(+ ul) {   
-      margin-bottom: 0;
-    }
-    p + ul {
-      margin-top: 0;
-    }
-</style>
 
 <span style="font-size:16px;">*Pdf file available [on request](mailto:matteo.zambra1@gmail.com)*</span>
 
@@ -80,13 +55,13 @@ Image, Signal and Vision
   <tr>
     <td style="padding-right: 50px; font-size: 16px;"><b>Doctoral School</b></td>
     <td style="padding-right: 50px; font-size: 16px;">
-      <a href="https://ed-spin.doctorat-bretagne.fr/fr" style="text-decoration: underline; color: inherit;">École Doctorale Sciences Pour l'Ingénieur et le Numérique</a>
+      <a href="https://ed-spin.doctorat-bretagne.fr/fr" target="_blank" style="text-decoration: underline; color: inherit;">École Doctorale Sciences Pour l'Ingénieur et le Numérique</a>
     </td>
   </tr>
   <tr>
     <td style="padding-right: 50px; font-size: 16px;"><b>Research Unit</b></td>
     <td style="padding-right: 50px; font-size: 16px;">
-      <a href="https://labsticc.fr/en" style="text-decoration: underline; color: inherit;">Lab-STICC, UMR CNRS 6285</a>
+      <a href="https://labsticc.fr/en" target="_blank" style="text-decoration: underline; color: inherit;">Lab-STICC, UMR CNRS 6285</a>
     </td>
   </tr>
 </table>
@@ -120,7 +95,7 @@ Computational Modelling of Numerosity Perception
   <tr>
     <td style="padding-right: 50px; font-size: 16px;"><b>Research Unit</b></td>
     <td style="padding-right: 50px; font-size: 16px;">
-      <a href="http://ccnl.psy.unipd.it/" style="text-decoration: underline; color: inherit;">Computational Cognitive Neuroscience Lab</a>
+      <a href="http://ccnl.psy.unipd.it/" target="_blank" style="text-decoration: underline; color: inherit;">Computational Cognitive Neuroscience Lab</a>
     </td>
   </tr>
 </table>

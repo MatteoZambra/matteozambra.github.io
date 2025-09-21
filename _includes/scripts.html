@@ -1,0 +1,14 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Select all links
+    const links = document.querySelectorAll("a[href]");
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+      // Only external links (not relative to your site)
+      if (href.startsWith("http") && !href.includes(location.hostname)) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer"); // security best practice
+      }
+    });
+  });
+</script>

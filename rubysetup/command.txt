@@ -1,0 +1,11 @@
+command to serve locally:
+	bundle exec jekyll serve
+
+ruby version `ruby -v`:
+	ruby 3.3.7 (2025-01-15 revision be31f993d7) [x64-mingw-ucrt]
+
+Bundler version `bundle -v`:
+	Bundler version 2.6.3
+
+Jekyll version `jekyll -v`:
+	jekyll 4.4.1

@@ -6,32 +6,6 @@ permalink: /ongoing/
 author_profile: true
 ---
 
-<style>
-    h2 {
-        font-family: "Garamond", serif;
-        font-style: normal;
-        font-size: 38px;
-        font-weight: bold;
-        color:rgb(102, 113, 126);
-    }
-    h3 {
-        font-size: 30px;
-        color: #494e63;
-    }
-    h5 {
-        color: #494e63;
-    }
-    body {
-        font-size: 18px;
-    }
-    p:has(+ ul) {   
-      margin-bottom: 0;
-    }
-    p + ul {
-      margin-top: 0;
-    }
-</style>
-
 ## Data Science at Aquafil Group
 ##### About Aquafil
 The company operates in the chemical-textile manufacturing industry, with a strong focus on sustainability. Its flagship product, [ECONYL®](https://econyl.aquafil.com/), is a synthetic fiber made from regenerated nylon sourced from end-of-life carpets, textile scraps, and fishing nets. The regeneration process may be infinitely repeated to retrieve the basic raw material. This reflects the company’s commitment to driving positive change in environmental sustainability.
