@@ -7,6 +7,9 @@ author_profile: true
 ---
 
 This site
+
+— As of September 2025, works **much** better on desktop. Expect improvements.
+
 — Is for portfolio and CV complement purposes.
 
 — Is structured as follows
