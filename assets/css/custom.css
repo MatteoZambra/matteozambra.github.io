@@ -31,6 +31,13 @@ p + ul {
   margin-top: 0;
 }
 
+figcaption {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #555;
+}
+
 h1 .header-anchor,
 h2 .header-anchor,
 h3 .header-anchor,

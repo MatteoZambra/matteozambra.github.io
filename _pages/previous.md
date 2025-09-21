@@ -26,6 +26,7 @@ Focused on ocean data processing, my Ph.D. Thesis aimed to answer the question:
 
 This problem was framed as a geophysical inverse problem. That is, to retrieve a bigger picture from its partial observations. In this case, the bigger picture is the dynamical behavior of sea-surface wind speed and the partial observations are the output of the measurement methods that can be use to gauge the phenomenon. Wind speed at the sea surface is an important parameter for a vast range of anthropic activities. The spatial extent of the sea surface and the strong spatio-temporal variability of wind speed makes each individual measurement method undercomplete and uncapable of capturing all of wind speed complexity.
 
+### Methodological framework
 The methodological approach involved an end-to-end trainable framework, the 4DVarNet. This framework bridges traditional physics-based geophysical inversion schemes and deep learning modelling. This allows us to exploit the geoscientific theoretical foundations, the flexibility and representation power of deep learning and the availability of large data sets. In the case of my work, the further challenge is to leverage *multimodal* datasets. The joint model-based and data-driven approach allows to use data-driven methods to learn complex, high-dimensional dynamical systems. For reference, see
 - [the *core*](https://github.com/CIA-Oceanix/4dvarnet-core) 4DVarNet repository
 - [the *starter*](https://github.com/CIA-Oceanix/4dvarnet-starter) version
@@ -33,7 +34,9 @@ The methodological approach involved an end-to-end trainable framework, the 4DVa
 
 *Note*. I did not contribute to the development of 4DVarNet. The original authors are listed in the repository and in the publication mentioned above.
 
-My Thesis was funded by [Agence National de la Recherche (ANR)](https://anr.fr/) and co-funded by [Naval Group](https://www.naval-group.com/en).
+
+### Acknowledgements
+My Thesis was funded by [Agence National de la Recherche (ANR)](https://anr.fr/) and co-funded by [Naval Group](https://www.naval-group.com/en). My thesis work, framed in the context of the project ["AI Chair OceaniX"](https://cia-oceanix.github.io/), was supervised by [Prof. Ronan Fablet](https://rfablet.github.io/) as main supervisor; and by [Prof. Nicolas Farrugia](https://nicofarr.github.io/) and [Prof. Dorian Cazau](https://osmose.ifremer.fr/people/1) as co-supervisors.
 
 ### Relevant experiences
 ##### IEEE OCEANS 2023-Limerick Conference
