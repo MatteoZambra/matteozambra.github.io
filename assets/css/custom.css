@@ -22,6 +22,7 @@ body {
     font-family: "Geneva", "Arial", sans-serif;
     font-size: 18px;
     color : rgb(0, 0, 0);
+    text-align: justify;
 }
 p:has(+ ul) {   
   margin-bottom: 0;
@@ -37,4 +38,26 @@ h4 .header-anchor,
 h5 .header-anchor,
 h6 .header-anchor {
     display: none !important;
+}
+
+
+@media (max-width: 768px) { /* tablets and smaller */
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
