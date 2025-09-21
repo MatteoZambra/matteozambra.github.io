@@ -12,3 +12,16 @@
     });
   });
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".top-nav-links");
+
+  if(hamburger && navLinks) {
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+  }
+});
+</script>
