@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Matteo Zambra"
   pronouns         : # example: "she/her"  
-  bio              : ""
+  bio              : #""
   location         : "Pietramurata, 38074 TN, Italy"
-  employer         : ""
+  employer         : #""
   uri              : # URL
   email            : "matteo.zambra1@gmail.com" 
 
