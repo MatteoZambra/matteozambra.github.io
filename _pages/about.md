@@ -1,9 +1,9 @@
 ---
 layout: single
 classes: wide
-layout: single
 title: Home
 author_profile: true
+permalink: /
 ---
 
 This site
