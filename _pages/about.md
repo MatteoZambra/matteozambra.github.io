@@ -10,7 +10,7 @@ This site
 
 — Is for portfolio and CV complement purposes.
 
-— As of October 2025, works **much** better on desktop. Expect improvements.
+— As of October 2025, works *slightly* better on desktop. More improvements provisioned.
 
 — Is structured as follows
 * [The CV](/_pages/cv.md) A factual overview of my past and current work experiences, education, publications.
