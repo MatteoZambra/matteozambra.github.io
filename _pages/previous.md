@@ -39,7 +39,7 @@ The methodological approach involved an end-to-end trainable framework, the 4DVa
 My Thesis was funded by [Agence National de la Recherche (ANR)](https://anr.fr/) and co-funded by [Naval Group](https://www.naval-group.com/en). My thesis work, framed in the context of the project ["AI Chair OceaniX"](https://cia-oceanix.github.io/), was supervised by [Prof. Ronan Fablet](https://rfablet.github.io/) as main supervisor; and by [Prof. Nicolas Farrugia](https://nicofarr.github.io/) and [Prof. Dorian Cazau](https://osmose.ifremer.fr/people/1) as co-supervisors.
 
 ### Relevant experiences
-##### IEEE OCEANS 2023-Limerick Conference
+#### IEEE OCEANS 2023-Limerick Conference
 Attended in June 2023 in Limerick, Ireland. 
 <table>
     <tr>
@@ -52,7 +52,7 @@ Attended in June 2023 in Limerick, Ireland.
     </tr>
 </table>
 
-##### Company visit at Naval Group, 83200 Toulon, France
+#### Company visit at Naval Group, 83200 Toulon, France
 A brief stay at Naval Group, from May to June 2023
 <table>
     <tr>
@@ -65,7 +65,7 @@ A brief stay at Naval Group, from May to June 2023
     </tr>
 </table>
 
-##### Teaching activities support
+#### Teaching activities support
 The Ph.D. students had the possibility to support the course teachers in the didactical activities.\
 Spring 2021, 2022 and 2023.
 <table>
@@ -82,14 +82,14 @@ Spring 2021, 2022 and 2023.
 ### Contributions
 We contributed with two original papers and one conference proceeding. In the following, a brief description of the main work axes.
 
-##### <i class="fa-regular fa-file-lines"></i> Multimodal Learning-based Reconstruction of High-resolution Spatial Wind Speed Fields
+#### <i class="fa-regular fa-file-lines"></i> Multimodal Learning-based Reconstruction of High-resolution Spatial Wind Speed Fields
 Published in January 2025, the work has been done between 2022 and 2023.\
 <i class="fa-solid fa-angles-right"></i> [Original article](https://www.cambridge.org/core/journals/environmental-data-science/article/multimodal-learningbased-reconstruction-of-highresolution-spatial-wind-speed-fields/18946D2FE8B1B72A9334DD2C2FF68909) in Environmental Data Science.\
 <i class="fa-solid fa-angles-right"></i> [Arxiv preprint](https://arxiv.org/abs/2312.08933), posted in December 2023.
 
 In this work, we used the 4DVarNet framework to reconstruct high-resolution sea-surface wind speed fields. Our goal was to leverage wind speed data across multiple spatiotemporal scales to maximize the contribution of each input source. Using simulated data, we integrated diverse pseudo-observations—including satellite images, in situ measurements, and reanalysis products—to capture wind speed variability more effectively. Extensive numerical experiments show that this multimodal approach outperforms traditional deep learning inversion methods by successfully combining complementary information from various inputs. We also prove that the scheme may benefice of further capacity by processing separately the automatically learned features of the heterogeneous partial observations.  
 
-##### <i class="fa-regular fa-file-lines"></i> Learning-Based Temporal Estimation of In-Situ Wind Speed From Underwater Passive Acoustics
+#### <i class="fa-regular fa-file-lines"></i> Learning-Based Temporal Estimation of In-Situ Wind Speed From Underwater Passive Acoustics
 Published in August 2023, the work has been done in 2022.\
 <i class="fa-solid fa-angles-right"></i> [Original article](https://ieeexplore.ieee.org/abstract/document/10229988) in IEEE Journal of Oceanic Engineering.
 
@@ -118,7 +118,7 @@ The question that my work aimed to answer is
 ### Achivement
 The outcomes of our research have been published in the following original paper.
 
-##### <i class="fa-regular fa-file-lines"></i> A Developmental Approach for Training Deep Belief Networks  
+#### <i class="fa-regular fa-file-lines"></i> A Developmental Approach for Training Deep Belief Networks  
 Published in December 2022, the work has been done between in 2020.\
 <i class="fa-solid fa-angles-right"></i> [Original article](https://link.springer.com/article/10.1007/s12559-022-10085-5) in Cognitive Computation.
 

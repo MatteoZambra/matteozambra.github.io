@@ -27,10 +27,10 @@ An interactive map with the relevant steps of my career. Below, the detailed des
 <i class="fa-regular fa-building"></i> &nbsp; [Aquafil Group](https://www.aquafil.com/)\
 <i class="fas fa-map-marker-alt"></i> &nbsp; 38062 Arco, Italy &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Since Apr 2024
 
-##### Context
+#### Context
 The industrial field is chemical-textile manufacturing
 
-##### Responsabilities
+#### Responsabilities
 - Development, industrialization and maitenance of Data Analytics models
 - Creation of user-oriented operational tools
 - Research and selection of the best task-centered solution
@@ -43,10 +43,10 @@ More details on the [Ongoing Activity](../ongoing/) section
 <i class="fa-regular fa-building"></i> &nbsp; [Institut Mines-Télécom Atlantique Bretagne-Pays de la Loire](https://www.imt-atlantique.fr/fr)\
 <i class="fas fa-map-marker-alt"></i> &nbsp; 29280 Brest, France &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Nov 2020 - Jan 2024
 
-##### Domain
+#### Domain
 Image, Signal and Vision
 
-##### Institution and research unit
+#### Institution and research unit
 <table>
   <tr>
     <td style="padding-right: 50px; font-size: 16px;"><b>Institution</b></td>
@@ -66,13 +66,13 @@ Image, Signal and Vision
   </tr>
 </table>
 
-##### Responsabilities
+#### Responsabilities
 - Development of multimodal deep learning algorithms to process sea-surface data
 - Documentation, dissemination, and valorization of the results of my research
 - Curation and submission of scientific articles
 - Tutoring and support in teaching activities
 
-##### Achivements
+#### Achivements
 - Two original journal papers
 - One conference proceeding
 
@@ -85,7 +85,7 @@ See the [Publications](#publications) section for details and the [Previous Effo
 <i class="fa-regular fa-building"></i> &nbsp; [Università degli Studi di Padova](https://www.unipd.it/)\
 <i class="fas fa-map-marker-alt"></i> &nbsp; 35122 Padova, Italy &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Jan 2020 - Sep 2020
 
-##### Project
+#### Project
 Computational Modelling of Numerosity Perception
 <table>
   <tr>
@@ -100,12 +100,12 @@ Computational Modelling of Numerosity Perception
   </tr>
 </table>
 
-##### Responsabilities
+#### Responsabilities
 - Development and testing of a biologically sound deep learning algorithm
 - Comparison of the learned sense of numerosity in both our model and human learners
 - Results documentation and dissemination
 
-##### Achivement
+#### Achivement
 - One original journal paper
 
 More details in the [Previous Efforts](../previous/#research-fellowship-at-ccnl-unipd) section
