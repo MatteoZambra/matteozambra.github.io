@@ -23,12 +23,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : #"profile.png"
+  avatar           : "photo_2.jpg"
   name             : "Matteo Zambra"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist | Ph.D."
   location         : "Pietramurata, 38074 TN, Italy"
-  employer         : #""
+  employer         : "Aquafil Group"
   uri              : # URL
   email            : "matteo.zambra1@gmail.com" 
 
