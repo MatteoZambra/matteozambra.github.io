@@ -1,7 +1,6 @@
 h2 {
     font-family: "Helvetica", "Arial", sans-serif;
     font-style: normal;
-    font-size: 38px;
     font-weight: bold;
     border-bottom: 3px solid !important;  /* thickness + color */
     padding-bottom: 0;          /* spacing above the line */
@@ -9,15 +8,12 @@ h2 {
 }
 h3 {
     font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 30px;
 }
 h4, h5, h6 {
     font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 24px;
 }
 body {
     font-family: "Geneva", "Arial", sans-serif;
-    font-size: 18px;
     text-align: justify;
 }
 p:has(+ ul) {   
