@@ -13,9 +13,9 @@ Non-professional activities I (unevely) cultivate: (i) Physical activity and fit
 ---
 
 On this site
-* [The CV](/_pages/cv.md) A factual overview of my past and current work experiences, education, publications.
-* [Ongoing Activity](/_pages/work.md) The highlights and the personal significance of my current working activity.
-* [Previous Efforts](/_pages/previous.md) A brief resume of my past (academic) career. This section details in more depth the items reported in the CV.
-* [Side Projects](/_pages/sideprojects-index.md) A list of side projects. As now, mainly a software development gym.
+* [The CV](/cv/) A factual overview of my past and current work experiences, education, publications.
+* [Ongoing Activity](/ongoing/) The highlights and the personal significance of my current working activity.
+* [Previous Efforts](/previous/) A brief resume of my past (academic) career. This section details in more depth the items reported in the CV.
+* [Side Projects](/side-projects/) A list of side projects. As now, mainly a software development gym.
 
 💪 Work is always in progress here.
