@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: Home
+title: About
 author_profile: true
 permalink: /
 ---
@@ -18,4 +18,4 @@ On this site
 * [Previous Efforts](/_pages/previous.md) A brief resume of my past (academic) career. This section details in more depth the items reported in the CV.
 * [Side Projects](/_pages/sideprojects-index.md) A list of side projects. As now, mainly a software development gym.
 
-<p><i class="fa-solid fa-triangle-exclamation"></i> &nbsp; 💪 Work is always in progress here.
+💪 Work is always in progress here.

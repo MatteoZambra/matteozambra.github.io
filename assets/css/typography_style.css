@@ -4,7 +4,7 @@ h2 {
     font-size: 38px;
     font-weight: bold;
     border-bottom: 3px solid !important;  /* thickness + color */
-    padding-bottom: 0.05em;          /* spacing above the line */
+    padding-bottom: 0;          /* spacing above the line */
     margin-bottom: 0.5em;           /* spacing below the line */
 }
 h3 {
@@ -19,62 +19,10 @@ body {
     font-family: "Geneva", "Arial", sans-serif;
     font-size: 18px;
     text-align: justify;
-    color: var(--text-color);
-    background-color: var(--background-color);
 }
 p:has(+ ul) {   
   margin-bottom: 0;
 }
 p + ul {
   margin-top: 0;
-}
-
-figcaption {
-  font-family: sans-serif;
-  font-style: italic;
-  font-size: 14px;
-}
-
-h1 .header-anchor,
-h2 .header-anchor,
-h3 .header-anchor,
-h4 .header-anchor,
-h5 .header-anchor,
-h6 .header-anchor {
-    display: none !important;
-}
-
-
-@media (max-width: 768px) { /* tablets and smaller */
-  body {
-    font-size: 16px;
-  }
-  h1 {
-    font-size: 28px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .top-nav-links {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
-}
-
-/* Show full navbar on desktop */
-@media (min-width: 769px) {
-  .top-nav-links {
-    display: flex;
-  }
-  .hamburger {
-    display: none;
-  }
 }
