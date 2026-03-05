@@ -17,15 +17,25 @@ An interactive map with the relevant steps of my career. Below, the detailed des
 <iframe src="/assets/images/map.html" width="100%" height="600px" style="border:none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"></iframe>
 
 
-### Synopsis of My Skills Set
+<!-- ### Synopsis of My Skills Set
 
-<iframe src="/assets/images/skills-chart.html" width="100%" height="600px" style="border:none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"></iframe>
+<iframe src="/assets/images/skills-chart.html" width="100%" height="600px" style="border:none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"></iframe> -->
 
 ## Work Experience
 
+### Applied Research in Agri-Tech
+<i class="fa-regular fa-building"></i> &nbsp; [Fondazione Bruno Kessler - FBK](https://www.fbk.eu/it/)\
+<i class="fas fa-map-marker-alt"></i> &nbsp; 38123 Trento, Italy &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Since Feb 2026
+
+#### Context
+Research at the interface of Machine Learning and Climate Sciences, for better planning agricultural operations
+
+#### Responsabilities
+I am currently working on the development of a MLOps platform to standardize the modeling and deployment operations at team level
+
 ### Industrial Data Analysis Systems Development
 <i class="fa-regular fa-building"></i> &nbsp; [Aquafil Group](https://www.aquafil.com/)\
-<i class="fas fa-map-marker-alt"></i> &nbsp; 38062 Arco, Italy &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Since Apr 2024
+<i class="fas fa-map-marker-alt"></i> &nbsp; 38062 Arco, Italy &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Apr 2024-Jan 2026
 
 #### Context
 The industrial field is chemical-textile manufacturing
@@ -35,7 +45,7 @@ The industrial field is chemical-textile manufacturing
 - Creation of user-oriented operational tools
 - Research and selection of the best task-centered solution
 
-More details on the [Ongoing Activity](../ongoing/) section
+More details on the [Previous Efforts](../previous/) section
 
 **Keywords**: Production process efficiency – Data-driven industrial quality control – Machine Learning Modelling and Applications – Chemical-physical processes analysis
 
