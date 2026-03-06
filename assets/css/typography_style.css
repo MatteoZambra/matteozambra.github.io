@@ -1,24 +1,24 @@
 h2 {
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-style: normal;
+    /* font-family: "Helvetica", "Arial", sans-serif;
+    font-style: normal; */
     font-weight: bold;
     border-bottom: 3px solid !important;  /* thickness + color */
     padding-bottom: 0;          /* spacing above the line */
     margin-bottom: 0.5em;           /* spacing below the line */
 }
-h3 {
+/* h3 {
     font-family: "Helvetica", "Arial", sans-serif;
-}
-h4, h5, h6 {
+} */
+/* h4, h5, h6 {
     font-family: "Helvetica", "Arial", sans-serif;
-}
-body {
+} */
+/* body {
     font-family: "Geneva", "Arial", sans-serif;
     text-align: justify;
-}
-p:has(+ ul) {   
+} */
+/* p:has(+ ul) {
   margin-bottom: 0;
 }
 p + ul {
   margin-top: 0;
-}
+} */

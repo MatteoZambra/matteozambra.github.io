@@ -1,5 +1,5 @@
 ---
-title: "My complete Curriculum Vitae"
+title: "The CV"
 classes: wide
 layout: single
 permalink: /cv/
@@ -28,24 +28,26 @@ An interactive map with the relevant steps of my career. Below, the detailed des
 <i class="fas fa-map-marker-alt"></i> &nbsp; 38123 Trento, Italy &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Since Feb 2026
 
 #### Context
-Research at the interface of Machine Learning and Climate Sciences, for better planning agricultural operations
+Research at the interface of Machine Learning and Agriculture Technology, for better planning agricultural operations.
 
 #### Responsabilities
-I am currently working on the development of a MLOps platform to standardize the modeling and deployment operations at team level
+I am currently working on the development of a MLOps platform to standardize the modeling and deployment operations at team level.
+
+**Keywords**: Water Resources Management – Data-Driven Modeling – Precision Agriculture
 
 ### Industrial Data Analysis Systems Development
 <i class="fa-regular fa-building"></i> &nbsp; [Aquafil Group](https://www.aquafil.com/)\
 <i class="fas fa-map-marker-alt"></i> &nbsp; 38062 Arco, Italy &nbsp; | &nbsp; <i class="fa-regular fa-calendar"></i> &nbsp; Apr 2024-Jan 2026
 
 #### Context
-The industrial field is chemical-textile manufacturing
+The industrial field is chemical-textile manufacturing.
 
 #### Responsabilities
 - Development, industrialization and maitenance of Data Analytics models
 - Creation of user-oriented operational tools
 - Research and selection of the best task-centered solution
 
-More details on the [Previous Efforts](../previous/) section
+More details on the [Previous Efforts](../previous/) section.
 
 **Keywords**: Production process efficiency – Data-driven industrial quality control – Machine Learning Modelling and Applications – Chemical-physical processes analysis
 
@@ -86,7 +88,7 @@ Image, Signal and Vision
 - Two original journal papers
 - One conference proceeding
 
-See the [Publications](#publications) section for details and the [Previous Efforts](../previous/#doctorate-at-imt-atlantique) section for an overview of the scientific contributions
+See the [Publications](#publications) section for details and the [Previous Efforts](../previous/#doctorate-at-imt-atlantique) section for an overview of the scientific contributions.
 
 **Keywords**: Oceanic Big Data Analytics – Hybrid Data-driven and Physics-based Modelling – Geophysical Inverse Problems – Multimodal Data Processing and Information Fusion
 
